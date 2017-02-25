@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.valentine.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/strawberry"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        style="@style/AppTheme.Text"
+        android:id="@+id/happyValentine"
+        android:text="@string/happy_valentine"
+        android:paddingTop="@dimen/defaultPadding" />
+
+    <TextView
+        style="@style/AppTheme.Text.Large"
+        android:layout_below="@id/happyValentine"
+        android:text="@string/person_name"
+        android:paddingBottom="@dimen/defaultPadding"/>
+
+    <TextView
+        style="@style/AppTheme.Text.Large"
+        android:id="@+id/fromName"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/defaultPadding"
+        android:text="@string/from_name"/>
+
+    <TextView
+        style="@style/AppTheme.Text"
+        android:layout_above="@id/fromName"
+        android:paddingTop="@dimen/defaultPadding"
+        android:text="@string/from"/>
+
+</RelativeLayout>

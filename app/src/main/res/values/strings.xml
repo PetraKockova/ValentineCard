@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Valentine</string>
+    <string name="happy_valentine">Happy Valentine's Day!</string>
+    <string name="person_name">Pavel</string>
+    <string name="from_name">Petra</string>
+    <string name="from">From</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="textNameSize">34sp</dimen>
+    <dimen name="defaultPadding">16dp</dimen>
+</resources>
